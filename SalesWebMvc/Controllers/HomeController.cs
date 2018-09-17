@@ -13,7 +13,8 @@ namespace SalesWebMvc.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aplicativo de Vendas Curso C#";
+            ViewData["email"] = "grassoconsultoria@gmail.com";
 
             return View();
         }
